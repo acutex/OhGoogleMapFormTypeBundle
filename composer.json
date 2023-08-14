@@ -1,8 +1,8 @@
 {
-    "name": "krixer/google-map-form-type-bundle",
+    "name": "acutex/google-map-form-type-bundle",
     "type": "symfony-bundle",
     "description": "Set latitude, longitude and address values on a form using Google Maps",
-    "keywords": ["google maps", "symfony", "form"],
+    "keywords": ["google maps", "symfony", "form", "sonata"],
     "homepage": "https://github.com/krixer/OhGoogleMapFormTypeBundle",
     "license": "MIT",
     "authors": [
@@ -21,9 +21,9 @@
     ],
     "require": {
         "php": "^5.4 || ^7.0 || ^8.0",
-        "symfony/event-dispatcher": "~3.4|~4.0|~5.0",
-        "symfony/form": "~3.4|~4.0|~5.0",
-        "symfony/asset": "~3.4|~4.0|~5.0"
+        "symfony/event-dispatcher": "~3.4|~4.0|~5.0|~6.0",
+        "symfony/form": "~3.4|~4.0|~5.0|~6.0",
+        "symfony/asset": "~3.4|~4.0|~5.0|~6.0"
     },
     "replace": {
         "oh/google-map-form-type-bundle":"1.*"
